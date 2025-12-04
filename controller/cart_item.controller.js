@@ -4,7 +4,7 @@ const {
     updateCartItemQuantity,
     deleteCartItem,
     listAllCartItems
-} = require('../service/Cart_item.service')
+} = require('../service/cart_item.service')
 
 // USUÁRIO
 async function create(req, res) {
