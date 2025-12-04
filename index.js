@@ -1,6 +1,6 @@
 require('dotenv').config()
 const app = require('./server/app')
-const db = require('./db/conn')
+const conn = require('./db/conn')
 
 const PORT = process.env.PORT || 3000
 const HOST = process.env.HOST || '0.0.0.0' // 0.0.0.0 é seguro e aceita conexões em PaaS/
